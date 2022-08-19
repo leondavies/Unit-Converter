@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+}
+
+#container {
+    display: block;
+    position: absolute;
+    width: 550px;
+    height: 729px;
+    left: 71px;
+    top: 125px;
+    background: #F4F4F4;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#top {
+    position: absolute;
+    width: 550px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+    background-color: #6943FF;
+}
+
+#top h1 {
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    /* identical to box height, or 136% */
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+#bottom h2 {
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 77px;
+    top: 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+    text-align: center;
+    color: #5A537B;
+}
+
+#top h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    /* identical to box height, or 136% */
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+#number-el {
+    box-sizing: border-box;
+    position: absolute;
+    width: 117px;
+    height: 83px;
+    left: 217px;
+    top: 101px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2em;
+    background-color: #6943FF;
+    color: white;
+    font-weight: bolder;
+}
+
+button {
+    position: absolute;
+    width: 117px;
+    height: 42px;
+    left: 217px;
+    top: 209px;
+    background: #FFFFFF;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+#group1 {
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 321px;
+    background-color: white;
+}
+
+#bottom p {
+    margin-top: 4.6em;
+}
+
+#group2 {
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 453px;
+    background-color: white;
+}
+
+#group3 {
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    top: 585px;
+    background-color: white;
+}
+
+#bottom {
+    background-color: #F4F4F4;
+}
